@@ -2,6 +2,8 @@
 
 This project is designed to automate the process of archiving a Kick streamer's videos by scraping their video page, extracting `.m3u8` links, and downloading the streams for offline storage. The program uses Selenium with `undetected-chromedriver`, `yt-dlp` for video downloading, and stores data in an SQLite database to track which videos have already been downloaded. This program is intended to be ran every 24 hours or whatever interval you choose, which you can schedule for instance with Task Scheduler on Windows.
 
+Streams will be named with their time and date stamp, for instance "2023-09-30-20-58.mp4"
+
 ## Setup and Usage
 
 ### Prerequisites
