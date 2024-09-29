@@ -1,0 +1,7 @@
+{
+    "streamer_video_page": "https://kick.com/XQC/videos",
+    "yt_dlp_video_quality": "bestvideo[height<=720]+bestaudio/best[height<=720]",
+    "output_directory": "Z:\\Path\\To\\Videos\\",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36",
+    "database_file": "video_data.db"
+}
